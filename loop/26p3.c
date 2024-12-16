@@ -2,13 +2,13 @@
 #include <stdio.h>
 int main()
 {
-    int i, j, m, rows;
+    int i, j, m, n;
     printf("Enter the rows number: \n");
-    scanf("%d", &rows);
+    scanf("%d", &n);
 
-    for (i = 0; i < rows; i++)
+    for (i = 0; i < n; i++)
     {
-        for (j = 0; j < 2 * (rows - i) - 1; j++)
+        for (j = 0; j < 2 * (n - i) - 1; j++)
         {
             printf(" ");
         }
